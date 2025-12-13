@@ -13,7 +13,7 @@ test('Login To Application Using POM', async ({ page }) => {
 
     await loginPage.loginToApp("admin@email.com","admin@123")
 
-    // await expect(homePage.getPageTitleLocator()).toHaveText("Cart");
+    
     homePage.verifyManageOption()
 
     await page.waitForTimeout(3000)
