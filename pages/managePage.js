@@ -10,3 +10,4 @@ class ManagePage {
         this.page.click(this.manageoption)
     }
 }
+module.exports = ManagePage
